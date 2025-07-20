@@ -1,18 +1,18 @@
-# Torch stack (compatible and available for Python 3.10)
-torch==2.5.1
-torchaudio==2.6.0  # ← this is compatible and exists!
+# Torch stack
+torch==2.6.0
+torchaudio==2.6.0
 
-# Whisper + NMT
+# Whisper ASR
 faster-whisper==1.1.1
 ctranslate2==4.6.0
+
+# Translation (mT5)
 transformers==4.41.2
 sentencepiece==0.1.99
 
-# Sound + playback
+# TTS and audio
 soundfile==0.12.1
-
-# Optional fallback TTS
 edge-tts==6.1.10
 
-# Streamlit frontend
+# Frontend
 streamlit==1.35.0
