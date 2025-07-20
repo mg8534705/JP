@@ -1,10 +1,18 @@
+# Torch & audio (CPU builds that exist for Py 3.10)
 torch==2.5.1
 torchaudio==2.5.1
-transformers==4.41.2
-ctranslate2==4.6.0
-faster-whisper==1.1.1
-sentencepiece==0.1.99
-streamlit==1.35.0
-soundfile==0.12.1
-edge-tts==6.1.10  # Optional, if you want working TTS on Streamlit Cloud
 
+# Whisper + Translation
+faster-whisper==1.1.1
+ctranslate2==4.6.0
+transformers==4.41.2
+sentencepiece==0.1.99
+
+# Audio + playback
+soundfile==0.12.1
+
+# Optional fallback TTS
+edge-tts==6.1.10
+
+# Streamlit app
+streamlit==1.35.0
