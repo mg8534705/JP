@@ -8,7 +8,7 @@ ctranslate2==4.6.0
 
 # Translation (mT5)
 transformers==4.41.2
-sentencepiece==0.1.99
+sentencepiece==0.1.96
 
 # TTS and audio
 soundfile==0.12.1
