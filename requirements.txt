@@ -1,18 +1,8 @@
-# Torch stack
 torch==2.6.0
 torchaudio==2.6.0
-
-# Whisper ASR
-faster-whisper==1.1.1
-ctranslate2==4.6.0
-
-# Translation (mT5)
-transformers==4.41.2
+transformers==4.41.1
 sentencepiece==0.1.96
-
-# TTS and audio
-soundfile==0.12.1
-edge-tts==6.1.10
-
-# Frontend
 streamlit==1.35.0
+soundfile==0.12.1
+numpy
+scipy
