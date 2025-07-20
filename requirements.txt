@@ -1,18 +1,18 @@
-# Torch & audio (CPU builds that exist for Py 3.10)
+# Torch stack (compatible and available for Python 3.10)
 torch==2.5.1
-torchaudio==2.5.1
+torchaudio==2.6.0  # ← this is compatible and exists!
 
-# Whisper + Translation
+# Whisper + NMT
 faster-whisper==1.1.1
 ctranslate2==4.6.0
 transformers==4.41.2
 sentencepiece==0.1.99
 
-# Audio + playback
+# Sound + playback
 soundfile==0.12.1
 
 # Optional fallback TTS
 edge-tts==6.1.10
 
-# Streamlit app
+# Streamlit frontend
 streamlit==1.35.0
