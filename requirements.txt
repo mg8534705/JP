@@ -1,0 +1,1 @@
+torch torchaudio transformers ctranslate2 faster-whisper TTS librosa soundfile pyaudio fugashi unidic-lite
